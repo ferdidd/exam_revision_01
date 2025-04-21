@@ -25,12 +25,6 @@ Tous les fichiers sources se trouvent dans le dossier `exercices/`.
 
 ---
 
-## 🔄 Génération automatique
-
-Le script `gen_exos.sh` permet de régénérer les fichiers d’exercices automatiquement avec un en-tête propre.
-
----
-
 ## 🧪 Compilation
 
 ```bash
