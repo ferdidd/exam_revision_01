@@ -4,59 +4,41 @@ _Auteurs : Ferdinand & Lionel_
 
 ---
 
-## 🧠 Objectif
-Ce repository regroupe **63 exercices** progressifs de préparation à l’examen d’initiation à la programmation en langage C.
+## 🎯 Objectif
 
-Ces exercices couvrent :  
-- Les structures conditionnelles et répétitives  
-- La manipulation de caractères et d’affichages  
-- Les fonctions  
-- Les tableaux (1D et 2D)  
-- La recherche, tri, somme, moyenne, etc.
+Ce dépôt contient une série d’exercices de révision réalisés en langage C dans le cadre du cours d’initiation à la programmation (1ère année ITSM).  
+Ces exercices permettent de revoir les bases de la programmation : structures conditionnelles, boucles, fonctions, tableaux 1D et 2D.
 
 ---
 
-## 🔗 Fichiers par thème
+## 📁 Organisation
 
-| Groupe | Thématique principale | Exercices | Fichiers |
-|-------|------------------------|-----------|----------|
-| 1     | Affichage simple et structures répétitives | 1 à 11 | `exercice01.c` → `exercice11.c` |
-| 2     | Fonctions d’affichage et logique | 12 à 20 | `exercice12.c` → `exercice20.c` |
-| 3     | Tableaux à une dimension | 21 à 33 | `exercice21.c` → `exercice33.c` |
+Tous les fichiers sources se trouvent dans le dossier `exercices/`.
 
----
+### 🔗 Répartition par thématique
 
-## 🛠️ Structure du projet
-
-```
-📁 repository/
-├── exercice01.c
-├── exercice02.c
-├── ...
-├── exercice33.c
-├── gen_exos.sh
-└── README.md
-```
+| Groupe | Thème principal | Fichiers concernés |
+|--------|------------------|--------------------|
+| 1️⃣     | Affichages simples et boucles | `exercice01.c` → `exercice11.c` |
+| 2️⃣     | Fonctions de dessin | `exercice12.c` → `exercice20.c` |
+| 3️⃣     | Tableaux 1D | `exercice21.c` → `exercice33.c` |
 
 ---
 
-## 📌 Instructions
+## 🔄 Génération automatique
 
-Chaque fichier `exerciceXX.c` contient :  
-- Un entête propre avec vos noms, formation, année  
-- Un exemple de structure `main()`  
-- Du code ou des commentaires guidant la solution
-
-Lance `gen_exos.sh` pour régénérer les fichiers si nécessaire.
+Le script `gen_exos.sh` permet de régénérer les fichiers d’exercices automatiquement avec un en-tête propre.
 
 ---
 
-## 📋 Compilation
+## 🧪 Compilation
 
 ```bash
-gcc exerciceXX.c -o exerciceXX && ./exerciceXX
+gcc exercices/exerciceXX.c -o exerciceXX && ./exerciceXX
 ```
+
+Remplace `XX` par le numéro de l'exercice souhaité.
 
 ---
 
-## ✨ Bon courage à tous !
+## ✅ Bon courage pour l’examen !
